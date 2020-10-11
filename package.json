@@ -1,0 +1,43 @@
+{
+  "name": "owl_typescript_sandbox",
+  "version": "0.0.1",
+  "description": "OWL Typescript Sandbox",
+  "cjs": "content/dist/bundle.cjs.js",
+  "iife": "content/dist/bundle.iife.js",
+  "module": "content/dist/bundle.es.js",
+  "scripts": {
+    "build:bundle": "rollup -c",
+    "build": "npm run build:bundle",
+    "dev": "npm run build",
+    "livereload": "node livereload-server.js",
+    "prettier": "prettier content/src --write"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@types/qunit": "^2.9.5",
+    "chokidar": "^3.4.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "qunit": "^2.11.2",
+    "rollup": "^2.29.0",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.27.3",
+    "typescript": "^4.0.3",
+    "ws": "^7.3.1"
+  },
+  "dependencies": {
+    "@odoo/owl": "file:../owl"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "endOfLine": "auto"
+  }
+}
