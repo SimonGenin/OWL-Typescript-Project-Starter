@@ -1,9 +1,9 @@
 import { App } from './components/app/app';
-import * as owl from "@odoo/owl";
+import { utils } from "@odoo/owl";
 
 (async () => {
-  await owl.utils.whenReady();
   const app = new App();
+  await utils.whenReady();
   await app.mount(document.body);
 })();
 

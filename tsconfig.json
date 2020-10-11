@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "./dist",
-    "module": "es6",
-    "noImplicitAny": true,
-    "outDir": "./dist",
-    "target": "es2017"
+    "module": "esnext",
+    "target": "esnext",
+    "alwaysStrict": true,
+    "moduleResolution": "node"
   },
+
   "include": [
-    "content/src",
+    "src",
   ],
-  "exclude": [
-    "node_modules"
+
+  "types": [
+    "@odoo/owl/dist/types/index.d.ts"
   ]
 }
