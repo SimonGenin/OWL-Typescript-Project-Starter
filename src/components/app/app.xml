@@ -1,8 +1,1 @@
-<templates>
-
-
-<div t-name="App" class="reddish" t-on-click="update">Hello s<t t-esc="state.text"/>
-    
-</div>
-
-</templates>
+<div t-name="App"></div>

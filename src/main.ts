@@ -7,4 +7,4 @@ import { utils } from "@odoo/owl";
   await app.mount(document.body);
 })();
 
-  
+
