@@ -1,8 +1,7 @@
-import { App } from "./components/app/app";
+import { App } from "./components/app";
 import { utils } from "@odoo/owl";
 
 import './main.css'
-
 
 (async () => {
   const app = new App();

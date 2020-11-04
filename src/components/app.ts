@@ -1,7 +1,7 @@
 import { Component, useState, tags, utils } from "@odoo/owl";
 
 const TEMPLATE = tags.xml/*xml*/ `
-    <div t-name="App" class="bg-red-500" t-on-click="update">Hello <t t-esc="state.text"/>
+    <div t-name="App" class="bg-blue-200 m-8 p-4 rounded" t-on-click="update">Hello <t t-esc="state.text"/>
         
     </div>
 `;
