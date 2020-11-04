@@ -3,10 +3,10 @@
 This repo is an example on how to start a real project with the odoo owl framework. 
 
 ## Features
-[OWL](https://github.com/odoo/owl)
-Typescript
-Livereload
-[TailwindCSS](https://tailwindcss.com/) + css purging in production
+- [OWL](https://github.com/odoo/owl)
+- Typescript
+- Livereload
+- [TailwindCSS](https://tailwindcss.com/) + css purging in production
 
 ## Installation
 This repo is a "template repository". It means you can quickly create repositories based on this one, without it being a fork. 
