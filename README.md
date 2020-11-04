@@ -20,7 +20,6 @@ Install dependencies:
 ```bash
 npm install
 ```
-note: a few postcss dependencies shall be updated once tailwind support for them arrive.
 
 Dev with livereload:
 ```bash
