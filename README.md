@@ -3,9 +3,34 @@
 This repo is an example on how to start a real project with the odoo owl framework. 
 
 ## Features
+[OWL](https://github.com/odoo/owl)
 Typescript
 Livereload
-TailwindCSS + css purging in production
+[TailwindCSS](https://tailwindcss.com/) + css purging in production
+
+## Installation
+This repo is a "template repository". It means you can quickly create repositories based on this one, without it being a fork. 
+
+Otherwise, you may clone it:
+```bash
+git clone https://github.com/SimonGenin/OWL-Typescript-Project-Starter
+```
+
+Install dependencies:
+```bash
+npm install
+```
+note: a few postcss dependencies shall be updated once tailwind support for them arrive.
+
+Dev with livereload:
+```bash
+npm run dev
+```
+
+Production build
+```bash
+npm run build
+```
 
 ## Components
 It is expected to create components in one file, following this convention:
