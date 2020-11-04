@@ -37,7 +37,7 @@ export default [
           port: 10001,
         }),
       !isProduction && livereload(),
-      isProduction && terser(),
+      isProduction && terser.terser(),
     ],
   },
 ];
