@@ -34,3 +34,4 @@ I'm still working on a nice solution.
 
 ## Roadmap
 Clear separation between custom style, template and logic. 
+Add a test solution. Most likely jest.
