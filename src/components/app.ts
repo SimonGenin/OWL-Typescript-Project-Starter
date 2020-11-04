@@ -1,4 +1,4 @@
-import { Component, useState, tags, utils } from "@odoo/owl";
+import { Component, useState, tags } from "@odoo/owl";
 
 const TEMPLATE = tags.xml/*xml*/ `
     <div t-name="App" class="bg-blue-200 m-8 p-4 rounded" t-on-click="update">Hello <t t-esc="state.text"/>
