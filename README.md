@@ -29,7 +29,7 @@ export class App extends Component {
 The template is defined in the file on the top and has tailwindcss classes. 
 
 ## Styles
-As it used Tailwind and its config file, not much has been done to add your own style rules. 
+As it uses Tailwind and its config file, not much has been done to add your own style rules. 
 I'm still working on a nice solution.
 
 ## Roadmap
